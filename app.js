@@ -3,7 +3,7 @@
 
 
 
-// fetch arid planets
+// fetch arid planets     13 17
 
 function pickDesert() {
 
@@ -12,11 +12,11 @@ function pickDesert() {
     function computerPlay(){
         let planetSelection = Math.floor(Math.random() * Math.floor(3)); {
           if (planetSelection === 0) {
-          url = "https://swapi.co/api/planets/11/"   
+          url = "https://swapi.co/api/planets/19/"   
         } if (planetSelection === 1) {
-          url = "https://swapi.co/api/planets/12/"     
+          url = "https://swapi.co/api/planets/13/"     
         } if (planetSelection === 2) {
-        url = "https://swapi.co/api/planets/13/"    
+        url = "https://swapi.co/api/planets/17/"    
         }  
         } 
         } 
@@ -38,16 +38,12 @@ fetch(url)
     }
 
 }
-/*arid1.then(function(response) {
-  response.text().then(function(data.name) {
-    planet.textContent = name;
-  });
-});*/
 
 
-// fetch temperate planets
+
+// fetch temperate planets  3 7 8
 
 
 // fetch cold planets
 
-//16 4
+//16 4 55

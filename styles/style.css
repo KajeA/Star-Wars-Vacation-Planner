@@ -1,0 +1,13 @@
+body {
+    background-image: url("../assets/bground.jpg")
+
+}
+
+h1 {
+ color: aqua;
+ background-color: blue;
+}
+
+h2 {
+    color: #ffff00;
+}
