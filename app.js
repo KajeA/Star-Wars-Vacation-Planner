@@ -1,27 +1,30 @@
 // when the button is clicked RNG runs to pick one of three (one of three functions)
 
 
-
+let myRequest = "url"
 
 // fetch arid planets     13 17
 
 function pickDesert() {
 
-    planetSelection = computerPlay()
+   randomPlanet()
 
-    function computerPlay(){
+    function randomPlanet(){
         let planetSelection = Math.floor(Math.random() * Math.floor(3)); {
           if (planetSelection === 0) {
-          url = "https://swapi.co/api/planets/19/"   
+         const url="https://swapi.co/api/planets/19/"   
         } if (planetSelection === 1) {
-          url = "https://swapi.co/api/planets/13/"     
+        const url="https://swapi.co/api/planets/13/"     
         } if (planetSelection === 2) {
-        url = "https://swapi.co/api/planets/17/"    
+       const url="https://swapi.co/api/planets/17/"    
         }  
+       
         } 
         } 
 
-fetch(url)
+}
+
+fetch(myRequest)  // HOW DO I MAKE URL GLOBAL??
     .then(x => x.json())
     .then(data => {
         planetClimate(data.climate)
@@ -37,7 +40,7 @@ fetch(url)
 
     }
 
-}
+
 
 
 

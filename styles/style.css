@@ -1,13 +1,72 @@
 body {
-    background-image: url("../assets/bground.jpg")
+    margin: 0;
+    background-image: url("../assets/bground.jpg");
+    background-size: 100vw 100vh;
 
 }
+
+/* Heading */
+
+
 
 h1 {
- color: aqua;
- background-color: blue;
+color: #ffff00;
+text-align: center;
+margin: 2rem;
+font-family: starwars;
+font-size: 4vw;
+letter-spacing: 2px;
 }
+
+
+/* Subheading */
 
 h2 {
     color: #ffff00;
+    text-align: center;
 }
+
+
+/* Buttons */
+
+.button {
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+/* Results */
+
+.results {
+    border: azure solid 0.1rem;
+    background: black;
+    margin: auto;
+    width: 40vw;
+    height: 20vh; 
+    
+}
+
+.results a {
+    font-style: italic;
+    font-size: 11px;
+    color: cornsilk;
+    text-decoration: none;
+    
+}
+
+#planet {
+    color: aliceblue;
+}
+
+#climate {
+    color: aqua;
+}
+
+@font-face {
+    font-family: starwars;
+    src: url(../assets/Starjedi.ttf);
+  }
