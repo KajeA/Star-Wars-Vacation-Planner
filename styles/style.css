@@ -24,49 +24,160 @@ letter-spacing: 2px;
 h2 {
     color: #ffff00;
     text-align: center;
+    font-family: exlight;
 }
 
 
 /* Buttons */
 
-.button {
-    background-color: yellow;
+.buttons {
+    text-align: center;
 }
 
+#desert {
+    height: 20vh;
+    width: 25vw;
+    background-image: url("../assets/desert.jpg");
+    background-size: cover;
+    border-radius: 0.5rem;
+    border-color: black;
+}
 
+#cold {
+    height: 20vh;
+    width: 25vw;
+    background-image: url("../assets/cold.jpeg");
+    background-size: cover;
+    border-radius: 0.5rem;
+    border-color: black;
+}
 
+#temperate {
+    height: 20vh;
+    width: 25vw;
+    background-image: url("../assets/temperate.jpg");
+    background-size: cover;
+    border-radius: 0.5rem;
+    border-color: black;
+}
 
+/* Loading bar */
 
+#loadingStatus {
+    margin: 6rem;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-family: exlight;
+    font-weight: 900;
+}
 
 
 /* Results */
 
+h3 {
+    color: white;
+    font-family: exlight;
+    font-size: 3rem;
+}
+
 .results {
-    border: azure solid 0.1rem;
     background: black;
-    margin: auto;
-    width: 40vw;
-    height: 20vh; 
-    
+    margin: 8rem auto 0 auto;
+    width: 60vw;
+    height: 35vh; 
+    text-align: center;
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 35% 25% 25% 15%;
+    font-family: exlight;
+    font-size: 2vw;
+    border: azure solid 0.1rem; 
+    padding: 10px;
+    box-shadow: inset 0 0 20px #ffff00;
+}   
+
+
+.boxtitle {
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .results a {
     font-style: italic;
-    font-size: 11px;
+    font-size: 1vw;
     color: cornsilk;
     text-decoration: none;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    margin-top: auto;
+    padding-bottom: 1rem;
+    
     
 }
 
+#planetn  {
+    color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+
+#planetc {
+    color: aliceblue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+}
+
+
 #planet {
     color: aliceblue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    text-align: left;
 }
 
 #climate {
     color: aqua;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    text-align: left;
 }
 
 @font-face {
     font-family: starwars;
     src: url(../assets/Starjedi.ttf);
   }
+
+  @font-face
+  {
+      font-family: exlight;
+      src: url(../assets/Existence-Light.ttf);
+  }
+
+/* 
+  @keyframes pulse {
+	0% {
+        box-shadow: inset 0 0 10px #ffff00;
+    }
+    
+    20% {
+        box-shadow: inset 0 0 20px #ffff00;
+    }
+    
+    40% {
+        box-shadow: inset 0 0 30px #ffff00;
+    }
+    
+	70% {
+        box-shadow: inset 0 0 20px #ffff00;
+	}
+
+	100% {
+        box-shadow: inset 0 0 10px #ffff00;
+    } */
+}

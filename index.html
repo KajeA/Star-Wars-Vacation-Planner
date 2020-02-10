@@ -10,18 +10,26 @@
 </head>
 <body>
     <h1>Star Wars vacation Planner </header>
-    <h2>What climate do you want? It's only a few parsecs away...</h1>
-    <button id="desert" onclick="pickDesert()">Desert</button>
-    <button>Cold</button>
-    <button>Temperate</button>
+    <h2>What temperature do you like? It's only a few parsecs away...</h1>
+    <section class="buttons">
+    <button id="desert" onclick="pickDesert()">Hot</button>
+    <button id="cold" onclick="pickCold()">Cold</button>
+    <button id="temperate" onclick="pickTemperate()">Temperate</button>
+</section>
+
+ <div id="loadingStatus">Waiting for a selection...</div>
+
 
     <div class="results">
-        <h3 class="boxtitle">You should visit:</h3>
-    <div id="planet">Planet goes here</div>
-    <div id="climate">Climate goes here</div>
+        <h3 class="boxtitle">Pack your bags, you're going to:</h3>
+    <p id="planetn">Planet:</p>
+    <p id="planet">Planet goes here</p>
+    <p id="planetc">Climate:</p>
+    <p id="climate">Climate goes here</p>
     <a href="https://swapi.co/">Data from Star Wars API</a>
     </div>
 
+   
 </body>
 <script src="app.js"></script>
 </html>
