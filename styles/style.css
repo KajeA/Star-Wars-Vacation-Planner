@@ -115,18 +115,18 @@ h3 {
     color: white;
     font-family: exlight;
     font-size: 2vw;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .results {
     background: black;
     margin: 2rem auto 0 auto;
     width: 60vw;
-    height: 45vh; 
+    height: 50vh; 
     text-align: center;
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: 23% 13% 13% 13% 13% 13% 10%;
+    grid-template-rows: 23% 13% 13% 13% 13% 13% 12%;
     font-family: exlight;
     font-size: 1.5vw;
     border: azure solid 0.1rem; 
@@ -206,10 +206,8 @@ h3 {
 /* Book button */
 
 .bookb {
-    margin-top: 1rem;
+    margin-top: 3.5rem;
     color: yellow;
-    padding-top: 0.5rem;
-    border-radius: 10px;
     font-size: 1.5vw;
     text-decoration: none;
     grid-column-start: 2;
