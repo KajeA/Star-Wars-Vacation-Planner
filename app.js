@@ -90,6 +90,8 @@ function getData(url) {
             removeLoading()
             planetClimate(data.climate)
             planetName(data.name)
+            planetGravity(data.gravity)
+            planetTerrain(data.terrain)
         })
 
         function planetClimate(text) {
@@ -100,7 +102,15 @@ function getData(url) {
             document.getElementById("planet").innerHTML = text
 
         }
-    
+        
+        function planetGravity(text) {
+            document.getElementById("gravity").innerHTML = text
+
+        }
+        function planetTerrain(text) {
+            document.getElementById("terrain").innerHTML = text
+
+        }
 
 }
 
