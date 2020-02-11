@@ -115,7 +115,7 @@ function getData(url) {
 }
 
 function loading() {
-    document.getElementById("loadingStatus").innerHTML = "Loading... Punch it Chewy!"
+    document.getElementById("loadingStatus").innerHTML = "Loading... Punch it, Chewie!"
 }
 
 function removeLoading() {
