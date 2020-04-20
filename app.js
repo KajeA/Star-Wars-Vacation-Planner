@@ -11,11 +11,11 @@ function pickDesert() {
 
         let planetSelection = Math.floor(Math.random() * Math.floor(3)); {
         if (planetSelection === 0) {
-             return"https://swapi.co/api/planets/19/"   
+             return"https://swapi.dev/api/planets/19/"   
         } if (planetSelection === 1) {
-         return "https://swapi.co/api/planets/13/"     
+         return "https://swapi.dev/api/planets/13/"     
         } if (planetSelection === 2) {
-             return "https://swapi.co/api/planets/17/"    
+             return "https://swapi.dev/api/planets/17/"    
         }  
        
         } 
@@ -34,11 +34,11 @@ function pickTemperate() {
  
          let planetSelection = Math.floor(Math.random() * Math.floor(3)); {
          if (planetSelection === 0) {
-              return"https://swapi.co/api/planets/3/"   
+              return"https://swapi.dev/api/planets/3/"   
          } if (planetSelection === 1) {
-          return "https://swapi.co/api/planets/7/"     
+          return "https://swapi.dev/api/planets/7/"     
          } if (planetSelection === 2) {
-              return "https://swapi.co/api/planets/8/"    
+              return "https://swapi.dev/api/planets/8/"    
          }  
         
          } 
@@ -61,11 +61,11 @@ function pickTemperate() {
  
          let planetSelection = Math.floor(Math.random() * Math.floor(3)); {
          if (planetSelection === 0) {
-              return"https://swapi.co/api/planets/16/"   
+              return"https://swapi.dev/api/planets/16/"   
          } if (planetSelection === 1) {
-          return "https://swapi.co/api/planets/4/"     
+          return "https://swapi.dev/api/planets/4/"     
          } if (planetSelection === 2) {
-              return "https://swapi.co/api/planets/55/"    
+              return "https://swapi.dev/api/planets/55/"    
          }  
         
          } 
